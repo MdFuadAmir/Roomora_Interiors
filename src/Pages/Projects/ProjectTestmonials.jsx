@@ -6,11 +6,12 @@ const ProjectTestmonials = () => {
     <section className="py-20 md:py-32 px-6 sm:px-12 bg-amber-50/20 dark:bg-[#0A0A0A] transition-colors">
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Image */}
-        <motion.div
+        <div className="w-full flex justify-center">
+          <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="w-70 h-70 md:w-105 md:h-105 bg-amber-100 dark:bg-white/5 rounded-full overflow-hidden border-16 border-white dark:border-white/10 shadow-xl"
+          className="w-70 h-70 md:w-105 md:h-105 bg-amber-100 dark:bg-white/5 rounded-full overflow-hidden border-16 border-white dark:border-white/10 shadow-xl "
         >
           <img
             src={image}
@@ -19,6 +20,7 @@ const ProjectTestmonials = () => {
             referrerPolicy="no-referrer"
           />
         </motion.div>
+        </div>
 
         {/* Text */}
         <div className="space-y-8 relative">
