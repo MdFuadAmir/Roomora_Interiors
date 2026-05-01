@@ -10,7 +10,7 @@ const ProjectTestmonials = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="bg-amber-100 dark:bg-white/5 rounded-full overflow-hidden border-16 border-white dark:border-white/10 shadow-xl"
+          className="w-70 h-70 md:w-105 md:h-105 bg-amber-100 dark:bg-white/5 rounded-full overflow-hidden border-16 border-white dark:border-white/10 shadow-xl"
         >
           <img
             src={image}

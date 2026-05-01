@@ -117,7 +117,7 @@ const Hero = () => {
             }}
           />
           {/* Main Image */}
-          <div className="relative w-full h-80 md:h-125 overflow-hidden rounded-t-full shadow-2xl">
+          <div className="relative w-full h-100 md:h-125 overflow-hidden rounded-t-full shadow-2xl">
             {/* Old Image (goes out) */}
             <motion.img
               key={"old-" + index}

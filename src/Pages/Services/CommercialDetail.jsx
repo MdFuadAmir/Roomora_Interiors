@@ -51,9 +51,7 @@ const CommercialDetail = () => {
 
           {/* BUTTON */}
           <a
-            href="/public/roomora.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://docs.google.com/document/d/12K2cXFu7bpCguwRwaytDKMEsww5fUsbcZP4UmAU-N6E/export?format=pdf"
             className="flex items-center gap-3 text-amber-500 text-xs font-bold uppercase tracking-[0.3em] group transition-all"
           >
             Commercial Brochure

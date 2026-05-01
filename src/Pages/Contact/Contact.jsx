@@ -19,7 +19,7 @@ const Contact = () => {
         keywords="contact roomora interiors, design consultation"
       />
       <ContactHero />
-      <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 px-4 border-t border-gray-400/40 md:px-10 lg:px-20 py-18 md:py-24 bg-amber-50/50 dark:bg-[#0A0A0A]">
+      <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 px-6 border-t border-gray-400/40 md:px-10 lg:px-20 py-18 md:py-24 bg-amber-50/50 dark:bg-[#0A0A0A]">
         <ContactForm />
         <OfficeLocations />
       </div>

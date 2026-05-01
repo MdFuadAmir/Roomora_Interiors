@@ -35,7 +35,10 @@ Please contact me.`;
   const onSubmit = async (data) => {
     try {
       setLoading(true);
-      await axios.post("https://roomora-interiors-server.vercel.app/send-email", data);
+      await axios.post(
+        "https://roomora-interiors-server.vercel.app/send-email",
+        data,
+      );
 
       toast("Message sent successfully!");
       reset();
@@ -54,7 +57,6 @@ Please contact me.`;
       viewport={{ once: true }}
       className="space-y-10 relative"
     >
-
       {/* Heading */}
       <div className="space-y-4">
         <h4 className="text-amber-600 font-semibold uppercase tracking-[0.3em] text-xs">

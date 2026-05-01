@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const ProjectHero = () => {
   return (
     <section className="pt-32 md:pt-40 pb-18 px-6 sm:px-12 bg-[#FAF9F6] dark:bg-[#0A0A0A] text-neutral-900 dark:text-white">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end gap-12">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between md:items-end gap-12">
         {/* LEFT TEXT */}
         <div className="space-y-6 max-w-2xl">
           <motion.p
